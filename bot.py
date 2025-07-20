@@ -4,7 +4,7 @@ from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, C
 from aiogram.enums import ParseMode
 import os
 
-API_TOKEN = os.getenv("API_TOKEN", "your_telegram_bot_token_here")
+API_TOKEN = os.getenv("API_TOKEN", "8042036168:AAHMx9sHVkQcydHi9sfnWASFs_3vGUh-jGk")
 bot = Bot(token=API_TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
